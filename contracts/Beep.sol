@@ -10,6 +10,9 @@ contract Beep is ERC721Drop {
     uint256 public quantityPerClaim = 1;
     string public globalBaseURI;
 
+    event QuantityPerClaimUpdated(uint256 newQuantity);
+    event GlobalBaseURIUpdated(string newURI);
+
     constructor(
         address _defaultAdmin,
         string memory _name,
@@ -57,9 +60,11 @@ contract Beep is ERC721Drop {
 
     function setQuantityPerClaim(uint256 _quantity) public onlyOwner {
         quantityPerClaim = _quantity;
+        emit QuantityPerClaimUpdated(_quantity);
     }
 
     function setGlobalBaseURI(string memory _globalBaseURI) public onlyOwner {
         globalBaseURI = _globalBaseURI;
+        emit GlobalBaseURIUpdated(_globalBaseURI);
     }
 }

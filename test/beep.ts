@@ -7,7 +7,7 @@ describe('Beep', () => {
 
 
     async function deployContract() {
-        const [owner, account1, account2] = await ethers.getSigners()
+        const [owner, account1 ] = await ethers.getSigners()
 
         const Beep = await ethers.getContractFactory('Beep')
         const defaultAdmin = await owner.getAddress()
