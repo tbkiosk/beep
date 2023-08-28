@@ -18,14 +18,15 @@ contract Beep is ERC721Drop {
         uint128 _royaltyBps,
         address _primarySaleRecipient
     )
-    ERC721Drop(
-    _defaultAdmin,
-    _name,
-    _symbol,
-    _royaltyRecipient,
-    _royaltyBps,
-    _primarySaleRecipient
-    ){}
+        ERC721Drop(
+            _defaultAdmin,
+            _name,
+            _symbol,
+            _royaltyRecipient,
+            _royaltyBps,
+            _primarySaleRecipient
+        )
+    {}
 
     /// @dev Override _beforeClaim to add quantity check
     function _beforeClaim(
@@ -45,7 +46,9 @@ contract Beep is ERC721Drop {
     }
 
     /// @dev Override tokenURI to allow globalBaseURI added to tokenURI
-    function tokenURI(uint256 _tokenId) public view virtual override returns (string memory) {
+    function tokenURI(
+        uint256 _tokenId
+    ) public view virtual override returns (string memory) {
         if (bytes(globalBaseURI).length > 0) {
             return string(abi.encodePacked(globalBaseURI, _tokenId.toString()));
         }
