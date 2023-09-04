@@ -42,7 +42,7 @@ describe('Beep', () => {
             false,
         )
 
-        return { beep, owner, account1, account2 }
+        return { beep, owner, account1 }
     }
 
     describe('claim quantity', () => {
