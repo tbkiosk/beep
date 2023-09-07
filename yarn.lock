@@ -944,9 +944,9 @@
     antlr4ts "^0.5.0-alpha.4"
 
 "@thirdweb-dev/contracts@^3.8.0":
-  version "3.9.2"
-  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.9.2.tgz#ce09b7de88348fcb3ec8b5ffa2016edafae31462"
-  integrity sha512-UGbGgHLLC0Fl9c3agGh2eame2ZzurJyw/SNlutBkTebNA0ptpLmE+PqD5hxdcciQ3NFgdFqJmWtXWjFN8S1Fig==
+  version "3.9.4"
+  resolved "https://registry.yarnpkg.com/@thirdweb-dev/contracts/-/contracts-3.9.4.tgz#5f9396c64de273df6026a727bede7a59482c7158"
+  integrity sha512-7zw7yg6kn/JsGLH7starKbxA2RowKSA8zWQ5aU+gABucLevBMTY78wKQY7Tvh+GNQTiUscsXVydg5J6YceDYhA==
   dependencies:
     "@chainlink/contracts" "^0.6.1"
     "@openzeppelin/contracts" "4.7.3"
@@ -1590,9 +1590,9 @@ buffer@^6.0.3:
     ieee754 "^1.2.1"
 
 bufio@^1.0.7:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/bufio/-/bufio-1.2.0.tgz#b9ad1c06b0d9010363c387c39d2810a7086d143f"
-  integrity sha512-UlFk8z/PwdhYQTXSQQagwGAdtRI83gib2n4uy4rQnenxUM2yQi8lBDzF230BNk+3wAoZDxYRoBwVVUPgHa9MCA==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/bufio/-/bufio-1.2.1.tgz#8d4ab3ddfcd5faa90f996f922f9397d41cbaf2de"
+  integrity sha512-9oR3zNdupcg/Ge2sSHQF3GX+kmvL/fTPvD0nd5AGLq8SjUYnTz+SlFjK/GXidndbZtIj+pVKXiWeR9w6e9wKCA==
 
 buildcheck@~0.0.6:
   version "0.0.6"
