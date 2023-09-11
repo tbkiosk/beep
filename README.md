@@ -1,3 +1,9 @@
+## About Beep
+
+Beep is your personal trading companion and a new take on what's possible with ERC 6551 smart NFTs. Brought to you by Kiosk, Beep is a revolutionary experiment that combines the power of NFTs, DeFi, and smart account into one seamless experience.
+
+Beep is an automated trading bot designed to Dollar Cost Averaging (DCA) stable coins into WETH (Wrapped ETH). DCA is a time-tested investment approach that involves making regular purchases over time, smoothing out the impact of price volatility.
+
 ## Getting Started
 
 Create a project using this example:
