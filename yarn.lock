@@ -993,9 +993,9 @@
     ts-essentials "^7.0.1"
 
 "@typechain/hardhat@^9.0.0":
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-9.0.0.tgz#c92d562566db9b933ac6899c0a0a2ae1871ad5c1"
-  integrity sha512-oCGRvcsryRHEDZ4KO2lenB7wdf8WMDS+f9KGcRFiQWcRLpWWD0ruBGRxNjzkTqyPLtgQ9MvZsXquAFPEw7gAEA==
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/@typechain/hardhat/-/hardhat-9.1.0.tgz#6985015f01dfb37ef2ca8a29c742d05890351ddc"
+  integrity sha512-mtaUlzLlkqTlfPwB3FORdejqBskSnh+Jl8AIJGjXNAQfRQ4ofHADPl1+oU7Z3pAJzmZbUXII8MhOLQltcHgKnA==
   dependencies:
     fs-extra "^9.1.0"
 
