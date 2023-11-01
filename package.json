@@ -1,10 +1,11 @@
 {
-  "name": "hardhat-javascript-starter",
+  "name": "beep",
   "scripts": {
     "build": "npx thirdweb@latest detect",
     "deploy": "npx thirdweb@latest deploy",
     "release": "npx thirdweb@latest release",
-    "test": "npx hardhat test"
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile"
   },
   "devDependencies": {
     "@matterlabs/hardhat-zksync-solc": "^0.4.0",
@@ -16,6 +17,7 @@
     "@types/chai": "^4.3.5",
     "@types/mocha": "^10.0.1",
     "chai": "^4.3.8",
+    "dotenv": "^16.3.1",
     "hardhat": "^2.17.1",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
