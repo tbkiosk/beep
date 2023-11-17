@@ -5,7 +5,8 @@
     "deploy": "npx thirdweb@latest deploy",
     "release": "npx thirdweb@latest release",
     "test": "npx hardhat test",
-    "compile": "npx hardhat compile"
+    "compile": "npx hardhat compile",
+    "generate-metadata": "ts-node scripts/generate-metadata.ts"
   },
   "devDependencies": {
     "@matterlabs/hardhat-zksync-solc": "^0.4.0",

@@ -11,3 +11,5 @@ artifacts*
 
 #ide
 .idea
+
+token-metadata.json
