@@ -1,8 +1,8 @@
 import fs from 'fs'
 const tokenIndex = 0
-const numberOfNftToMint = 100 + tokenIndex
+const numberOfNftToMint = 1000 + tokenIndex
 const tokens = []
-const contract = '0xB4eFd35Eb18D1FeF30319D23F78ed001105Ef991'
+const contract = '0x10b63ea4fc1508fCD6f2C48F12A16116B4Aba91f'
 const chainId = 5
 
 

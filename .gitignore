@@ -13,3 +13,6 @@ artifacts*
 .idea
 
 token-metadata.json
+
+.yarn
+.env.local*

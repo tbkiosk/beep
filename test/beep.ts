@@ -30,7 +30,7 @@ describe('Beep', () => {
 
         const claimConditions = {
             "startTimestamp": BigInt(0),
-            "maxClaimableSupply": BigInt(100),
+            "maxClaimableSupply": BigInt(1000),
             "supplyClaimed": BigInt(0),
             "quantityLimitPerWallet": BigInt(20),
             "merkleRoot": ethers.encodeBytes32String(''),
